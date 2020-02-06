@@ -116,7 +116,7 @@ export const delete_replaced_filenames = () => {
 
 export const serve = done => {
   server.init({
-    proxy: "http://localhost:8888/myfirsttheme"
+    proxy: "http://localhost:80/wordpress_multisite/training"
   });
   done();
 };
